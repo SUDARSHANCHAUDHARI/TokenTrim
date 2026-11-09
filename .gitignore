@@ -1,0 +1,21 @@
+# Python bytecode from running the tests or hooks
+__pycache__/
+*.pyc
+
+# prove runs write their folders and results.json under the system temp dir; keep any copied here out
+tokentrim-prove-*/
+results.json
+
+# This checkout's own Claude Code settings, which belong to whoever cloned it
+.claude/
+
+# macOS
+.DS_Store
+
+# The build plan: local paths and profile details, not for the public repo
+ROADMAP.md
+
+# Secrets and local config: never, under any name
+.claude-plugin-config.json
+.env
+.env.*
