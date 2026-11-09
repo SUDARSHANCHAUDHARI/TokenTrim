@@ -15,6 +15,9 @@ results.json
 # The build plan: local paths and profile details, not for the public repo
 ROADMAP.md
 
+# Local snapshot written by repo-status-snapshot.sh; stale the moment the repo changes
+REPO_STATUS.md
+
 # Secrets and local config: never, under any name
 .claude-plugin-config.json
 .env

@@ -1,0 +1,14 @@
+{
+  "name": "tokentrim",
+  "description": "TokenTrim: shows where a Claude Code session's tokens go, trims long Bash results, keeps a checkpoint across compaction, and proves each cut with an A/B count.",
+  "owner": {
+    "name": "Sudarshan"
+  },
+  "plugins": [
+    {
+      "name": "tokentrim",
+      "source": "./",
+      "description": "Measure fixed context, trim long Bash results, keep a compaction checkpoint, and prove each cut with an A/B count from real transcripts."
+    }
+  ]
+}

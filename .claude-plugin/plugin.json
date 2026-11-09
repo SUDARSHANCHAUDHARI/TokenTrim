@@ -1,0 +1,11 @@
+{
+  "name": "tokentrim",
+  "description": "Measure where a Claude Code session's tokens go before the first prompt, and prove each cut with an A/B count from the transcripts.",
+  "version": "0.1.0",
+  "author": {
+    "name": "SUDARSHANCHAUDHARI",
+    "url": "https://github.com/SUDARSHANCHAUDHARI"
+  },
+  "license": "MIT",
+  "keywords": ["tokens", "context", "audit"]
+}
